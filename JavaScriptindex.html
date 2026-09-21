@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML,CSS,Java Script</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="3c1541303103a4f900685fa3653e3912.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    font-family: 'Montserrat', 'Segoe UI', sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+
+    /* Текст сдвинут влево */
+    padding: 3rem 3rem 6rem 3rem;
+    text-align: left;
+  }
+
+  /* Все абзацы — слева */
+  p {
+    max-width: 850px;
+    font-size: 1rem;
+    line-height: 1.7;
+    opacity: 0.88;
+    margin-bottom: 1.2rem;
+    text-align: left;
+  }
+
+  p strong {
+    color: #ffb347;
+  }
+
+  /* Кнопка Назад — правый нижний угол */
+  .back {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.7rem 1.6rem;
+    border-radius: 30px;
+    background: rgba(255, 138, 0, 0.15);
+    border: 1px solid #ff8a00;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    z-index: 10;
+  }
+
+  .back:hover {
+    background: #ff8a00;
+    color: #090a0f;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255, 138, 0, 0.4);
+  }
+
+  a { color: white; }
+</style>
+
+<p>JavaScript — это язык программирования, который в первую очередь делает веб-страницы интерактивными. С его помощью кнопки реагируют на клики, формы проверяют данные, появляется анимация, а контент подгружается динамически — без полной перезагрузки страницы.</p>
+<p><strong>История появления</strong></p>
+<p>Язык создали в 1995 году в компании Netscape. Сотрудник Брендан Эйх разработал прототип всего за 10 дней. Сначала язык назывался Mocha, потом LiveScript, а в декабре 1995 года его переименовали в JavaScript. 
+
+Чтобы стандартизировать язык и устранить несовместимости между браузерами, Netscape передала его спецификацию в организацию ECMA. Так появился стандарт ECMAScript (первый релиз — 1997 год). С тех пор развитие языка идёт в рамках этого стандарта.</p>
+<p><strong>Ключевые особенности</strong></p>
+<p>Интерпретируемый. Код выполняется построчно сразу, без отдельной фазы компиляции. Интерпретатор встроен во все современные браузеры. 
+
+
+Мультипарадигменный. Поддерживает разные стили программирования: объектно-ориентированный, императивный и функциональный. 
+
+Динамическая типизация. Тип переменной определяется в момент присвоения значения и может меняться в процессе работы программы. 
+
+
+Автоматическое управление памятью (работает сборщик мусора). 
+
+Прототипное наследование. В отличие от классового наследования в некоторых других языках, в JavaScript объекты наследуют свойства и методы непосредственно от других объектов-прототипов. 
+
+Однопоточность. Сам язык выполняет код в одном потоке, но асинхронные механизмы (цикл событий — Event Loop) позволяют не «замораживать» интерфейс при длительных операциях (например, загрузке данных). </p>
+<p><strong>Где применяется?</strong></p>
+<p>Фронтенд-разработка. Главная сфера: интерактивные элементы сайтов, формы, анимации, обработка пользовательских действий. 
+
+Бэкенд. С появлением платформы Node.js JavaScript вышел за пределы браузера. Теперь на нём пишут серверную часть, API, микросервисы. Также появились современные среды вроде Bun и Deno. 
+
+
+Мобильные приложения. С фреймворками React Native, Ionic можно создавать кроссплатформенные приложения. 
+
+Десктопные программы. Например, с помощью фреймворка Electron. 
+
+Браузерные расширения. Скрипты на JS могут расширять функционал браузера (блокировать рекламу, менять дизайн). </p>
+
+<a href="1index.html" class="back">← Назад</a>
+
+</body>
+</html>
+
